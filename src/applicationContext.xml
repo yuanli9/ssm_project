@@ -16,7 +16,7 @@
 	<!-- 自动扫描 -->
 	<context:component-scan base-package="com.ssm.yuanli.dao" />
 	<context:component-scan base-package="com.ssm.yuanli.service" />
-	<context:component-scan base-package="com.ssm.yuanli.serviceImpl" />
+	<!-- <context:component-scan base-package="com.ssm.yuanli.serviceImpl" /> -->
 	<!-- 配置数据源 -->
 	<bean id="dataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
